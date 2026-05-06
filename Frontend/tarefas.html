@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Tarefas</title>
+    <link rel="stylesheet" href="./css/style3.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="clima.html">Clima</a></li>
+            <li><a href="tarefas.html">Tarefas</a></li>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Cadastrar Tarefa</h2>
+
+        <form id="formTarefa">
+            <label>Nome</label>
+            <input type="text" id="nome" required>
+
+            <label>Data de Início</label>
+            <input type="datetime-local" id="dataInicio" required>
+
+            <label>Data de Fim</label>
+            <input type="datetime-local" id="dataFim">
+
+            <label>Descrição</label>
+            <textarea id="descricao" rows="4" required></textarea>
+
+            <label>Imagem</label>
+            <input type="text" id="imagem" placeholder="URL da imagem">
+
+            <button type="submit">Salvar Tarefa</button>
+        </form>
+    </div>
+
+    <script src="./scripts/script2.js"></script>
+
+</body>
+
+</html>
